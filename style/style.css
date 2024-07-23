@@ -43,6 +43,26 @@
   margin-top: 50px;
 }
 
+.ventas {
+  background: #111D38;
+}
+
+.titulo {
+  color: #FFFFFF;
+  text-shadow: 3px 3px #000000;
+}
+
+.columna {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+}
+
+.indu-titulo {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+}
+
 @media screen and (max-width: 570px) {
   .carro-image {
     height: 75vh;
