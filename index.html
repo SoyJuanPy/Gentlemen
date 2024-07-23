@@ -61,29 +61,46 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              srcset="image/carousel-01.jpg 480w, image/carousel-1.jpg 1200w"
-              sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
-              class="carro-image d-block w-100"
-              alt="imagen1"
-              loading="lazy"
-            />
+            <picture class="img-size">
+              <source
+                media="(max-width: 578px)"
+                srcset="image/carousel-01.jpg" />
+              <source media="(min-width: 578px)" src="image/carousel-1.jpg" />
+
+              <img
+                src="image/carousel-2.jpg"
+                class="carro-image d-block w-100"
+                alt="imagen1"
+                loading="lazy"
+            /></picture>
           </div>
           <div class="carousel-item">
-            <img
-              src="image/carousel-2.jpg"
-              class="carro-image d-block w-100"
-              alt="imagen2"
-              loading="lazy"
-            />
+            <picture class="img-size">
+              <source
+                media="(max-width: 578px)"
+                srcset="image/carousel-02.jpg" />
+              <source media="(min-width: 578px)" src="image/carousel-2.jpg" />
+
+              <img
+                src="image/carousel-2.jpg"
+                class="carro-image d-block w-100"
+                alt="imagen1"
+                loading="lazy"
+            /></picture>
           </div>
           <div class="carousel-item">
-            <img
-              src="image/carousel-3.jpg"
-              class="carro-image d-block w-100"
-              alt="imagen3"
-              loading="lazy"
-            />
+            <picture class="img-size">
+              <source
+                media="(max-width: 578px)"
+                srcset="image/carousel-03.jpg" />
+              <source media="(min-width: 578px)" src="image/carousel-3.jpg" />
+
+              <img
+                src="image/carousel-3.jpg"
+                class="carro-image d-block w-100"
+                alt="imagen1"
+                loading="lazy"
+            /></picture>
           </div>
         </div>
         <button
