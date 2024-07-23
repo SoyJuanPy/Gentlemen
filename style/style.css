@@ -52,6 +52,12 @@
   text-shadow: 3px 3px #000000;
 }
 
+.separator {
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+}
+
 .indu-titulo {
   color: #FFFFFF;
   font-size: 1.5rem;
@@ -90,6 +96,12 @@
 }
 .copy .copy-parra {
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 570px) {
+  .carro-image {
+    height: 500px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
