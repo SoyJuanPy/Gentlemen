@@ -39,4 +39,14 @@
   filter: invert(100%);
 }
 
+.carrousel-main {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 570px) {
+  .carro-image {
+    height: 75vh;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
