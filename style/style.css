@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+
+.navbar {
+  background: #031633;
+}
+
+.img-logo {
+  width: 3rem;
+  filter: invert(100%);
+}
+
+.logo-title {
+  color: #FFFFFF !important;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: #aaaaaa !important;
+}
+.nav-link.active {
+  color: #FFFFFF !important;
+}
+
+.nav-item {
+  padding: 1px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.nav-item .nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+/*# sourceMappingURL=style.css.map */
