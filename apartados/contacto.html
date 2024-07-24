@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/contacto.css" />
+    <link rel="stylesheet" href="../font/font.css" />
+    <link rel="shortcut icon" href="../image/icono.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="../bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <title>Gentlemen</title>
+  </head>
+  <body>
+    <!-- Codigo de la barra de navegacion -->
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container-fluid justify-content-betwee">
+        <a class="navbar-brand logo-title" href="../index.html">
+          <img
+            src="../image/icono.png"
+            alt="Logo"
+            class="img-fluid img-logo align-content-center"
+          />
+          Gentlemen
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Formulario -->
+    <section class="formulario">
+      <div class="titulo d-flex justify-content-center">
+        <h1 class="datos-title">Contactanos</h1>
+      </div>
+
+      <form class="contenido d-flex justify-content-center">
+        <div class="datos">
+          <h2 class="subtitulo text-center">Ingresar tus datos</h2>
+          <div class="caja">
+            <p class="texto">Ingresar correo:</p>
+            <input
+              type="email"
+              placeholder="Ingresar correo"
+              class="entrada"
+              required
+            />
+          </div>
+          <div class="caja">
+            <p class="texto">Nombre:</p>
+            <input class="entrada" type="text" placeholder="Ingresar nombre" />
+          </div>
+          <div class="comentario d-flex justify-content-center">
+            <h3 class="title-coment">Escribir un comentario</h3>
+          </div>
+          <label>
+            <textarea
+              class="intro"
+              id="message"
+              name="message"
+              rows="4"
+              cols="40"
+              placeholder="Escribe tu mensaje aquí..."
+            ></textarea>
+          </label>
+          <div class="boton d-flex justify-content-center">
+            <button class="enviar" type="submit">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- Codigo dCamisaooter -->
+    <footer class="pie">
+      <div class="copy d-flex justify-content-center">
+        <p class="copy-parra">&#169; Derechos reservados</p>
+      </div>
+    </footer>
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+@import "_colors"
+.formulario
+    background: $back-color
+    padding-top: 100px
+    color: $font-active
+    height: 100vh
+.subtitulo
+    padding: 10px
+    text-decoration: underline
+.datos
+    margin-top: 40px
+    height: 70vh
+    width: 20rem
+    box-shadow: 2px 2px 2px 2px $black-color
+    border-radius: 10px
+    background: $form-color
+.texto
+    margin: 0
+    color: $font-active
+    text-decoration: underline
+.caja
+    margin-top: 50px
+    padding-left: 10px
+
+.entrada
+    width: 90%
+    background: transparent
+    border: none
+    border-bottom: 1px solid $font-active
+    color: $font-color
+    &::placeholder
+        color: $font-active
+        font-size: 0.9rem
+input:focus
+    outline: none
+    box-shadow: none
+    border-color: initial
+.comentario
+    margin-top: 50px
+    .title-coment
+        font-size: 1.5rem
+        text-decoration: underline
+.intro
+    width: 20rem
+    height: 20vh
+    background: $font-color
+    color: $font-active
+    resize: none
+    &:focus
+        outline: none
+        box-shadow: none
+        border-color: initial
+.boton
+    margin-top: 15px
+
+.enviar
+    border-radius: 10px
+    padding: 10px
+    color: $font-active
+    background: $back-color

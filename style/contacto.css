@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+
+.navbar {
+  background: #031633;
+}
+
+.img-logo {
+  width: 3rem;
+  filter: invert(100%);
+}
+
+.logo-title {
+  color: #FFFFFF !important;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: #aaaaaa !important;
+}
+
+.active {
+  color: #FFFFFF !important;
+}
+
+.nav-item {
+  padding: 1px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+.lista-item {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.copy {
+  background: #000000;
+}
+.copy .copy-parra {
+  color: #FFFFFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+
+.formulario {
+  background: #111D38;
+  padding-top: 100px;
+  color: #FFFFFF;
+  height: 100vh;
+}
+
+.subtitulo {
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.datos {
+  margin-top: 40px;
+  height: 70vh;
+  width: 20rem;
+  box-shadow: 2px 2px 2px 2px #000000;
+  border-radius: 10px;
+  background: #101633;
+}
+
+.texto {
+  margin: 0;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.caja {
+  margin-top: 50px;
+  padding-left: 10px;
+}
+
+.entrada {
+  width: 90%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  color: #aaaaaa;
+}
+.entrada::placeholder {
+  color: #FFFFFF;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: initial;
+}
+
+.comentario {
+  margin-top: 50px;
+}
+.comentario .title-coment {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.intro {
+  width: 20rem;
+  height: 20vh;
+  background: #aaaaaa;
+  color: #FFFFFF;
+  resize: none;
+}
+.intro:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: initial;
+}
+
+.boton {
+  margin-top: 15px;
+}
+
+.enviar {
+  border-radius: 10px;
+  padding: 10px;
+  color: #FFFFFF;
+  background: #111D38;
+}
+
+/*# sourceMappingURL=contacto.css.map */
