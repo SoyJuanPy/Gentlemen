@@ -12,51 +12,6 @@
   font-family: oswald;
 }
 
-.carrousel-main {
-  margin-top: 50px;
-}
-
-.ventas {
-  background: #111D38;
-}
-
-.titulo {
-  color: #FFFFFF;
-  text-shadow: 3px 3px #000000;
-}
-
-.indu-titulo {
-  color: #FFFFFF;
-  font-size: 1.5rem;
-  text-decoration-line: underline;
-  margin-top: 10%;
-}
-
-.indu-parra {
-  color: #FFFFFF;
-  text-align: justify;
-}
-
-.ver-mas {
-  text-decoration: none;
-  color: #FFFFFF;
-  background: #000000;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-.ver-mas:hover {
-  color: #000000;
-  background: #FFFFFF;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: oswald;
-}
-
 .navbar {
   background: #031633;
 }
@@ -108,10 +63,8 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 570px) {
-  .carro-image {
-    height: 500px;
-  }
+.trajes {
+  margin-top: 50px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=productos.css.map */
