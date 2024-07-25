@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+
+.navbar {
+  background: #031633;
+}
+
+.img-logo {
+  width: 3rem;
+  filter: invert(100%);
+}
+
+.logo-title {
+  color: #FFFFFF !important;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: #aaaaaa !important;
+}
+
+.active {
+  color: #FFFFFF !important;
+}
+
+.nav-item {
+  padding: 1px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+.lista-item {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.copy {
+  background: #000000;
+}
+.copy .copy-parra {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=nosotros.css.map */
